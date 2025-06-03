@@ -216,3 +216,10 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.descricaocomponentes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+}
