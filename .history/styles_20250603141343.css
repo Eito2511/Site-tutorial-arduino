@@ -278,27 +278,28 @@ header{
     }
 }
 
-/* Responsividade do Menu */
+
 @media (max-width: 768px) {
     .navindex {
-        padding: 20px; 
+        padding: 20px; /* Reduce padding */
     }
 
     .btn {
-        width: calc(50% - 20px); 
-        padding: 10px 20px; 
+        width: calc(50% - 20px); /* Two buttons per row, considering margin */
+        padding: 10px 20px; /* Adjust padding */
     }
 }
 
+/* For screens smaller than 480px (e.g., mobile phones) */
 @media (max-width: 480px) {
     .navindex {
-        flex-direction: column; 
-        padding: 15px; 
+        flex-direction: column; /* Stack buttons vertically */
+        padding: 15px; /* Further reduce padding */
     }
 
     .btn {
-        width: 90%; 
-        margin: 10px auto; 
-        padding: 20px 0; 
+        width: 90%; /* Make buttons take up most of the width */
+        margin: 10px auto; /* Center buttons horizontally */
+        padding: 20px 0; /* Adjust padding */
     }
 }

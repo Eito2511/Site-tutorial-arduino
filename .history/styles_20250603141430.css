@@ -298,7 +298,7 @@ header{
 
     .btn {
         width: 90%; 
-        margin: 10px auto; 
-        padding: 20px 0; 
+        margin: 10px auto; /* Center buttons horizontally */
+        padding: 20px 0; /* Adjust padding */
     }
 }

@@ -146,14 +146,15 @@ header{
     justify-content: space-evenly;
 }
 
-/* Menu*/
 .navindex {
     display: flex;
     padding: 50px;
     border-radius: 5px;
     background-color: rgb(240, 240, 240);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    /* Allow items to wrap when there's not enough space */
     flex-wrap: wrap;
+    /* Center items when they wrap */
     justify-content: center;
 }
 
@@ -169,7 +170,9 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* Add a max-width to prevent buttons from becoming too wide on small screens */
     max-width: 100%;
+    /* Ensure buttons maintain their padding and margin */
     box-sizing: border-box;
 }
 .descricaocomponentes{
@@ -278,27 +281,27 @@ header{
     }
 }
 
-/* Responsividade do Menu */
 @media (max-width: 768px) {
     .navindex {
-        padding: 20px; 
+        padding: 20px; /* Reduce padding */
     }
 
     .btn {
-        width: calc(50% - 20px); 
-        padding: 10px 20px; 
+        width: calc(50% - 20px); /* Two buttons per row, considering margin */
+        padding: 10px 20px; /* Adjust padding */
     }
 }
 
+/* For screens smaller than 480px (e.g., mobile phones) */
 @media (max-width: 480px) {
     .navindex {
-        flex-direction: column; 
-        padding: 15px; 
+        flex-direction: column; /* Stack buttons vertically */
+        padding: 15px; /* Further reduce padding */
     }
 
     .btn {
-        width: 90%; 
-        margin: 10px auto; 
-        padding: 20px 0; 
+        width: 90%; /* Make buttons take up most of the width */
+        margin: 30px 20px; /* Center buttons horizontally */
+        padding: 20px 0; /* Adjust padding */
     }
 }
