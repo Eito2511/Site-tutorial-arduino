@@ -196,7 +196,7 @@ header{
     padding: 60px;
 }
 
-/* Contextualização/Motivação/Objeto */
+/* Responsividade */
 
 .descricao {
     display: flex;
@@ -253,6 +253,6 @@ header{
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33.33% - 40px); 
+        width: calc(33.33% - 40px); /* Ajuste fino para 3 caixas por linha */
     }
 }

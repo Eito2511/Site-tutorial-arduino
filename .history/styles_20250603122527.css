@@ -196,15 +196,16 @@ header{
     padding: 60px;
 }
 
-/* Contextualização/Motivação/Objeto */
+
 
 .descricao {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px; /* Espaçamento entre as caixas */
     padding: 20px;
-    align-items: center; 
+    align-items: center; /* Centraliza as caixas horizontalmente */
 }
+
 
 .Motivação,
 .Objetivo,
@@ -236,16 +237,16 @@ header{
 /* Responsividade */
 @media (min-width: 768px) {
     .descricao {
-        flex-direction: row; 
-        flex-wrap: wrap; 
-        justify-content: center; 
+        flex-direction: row; /* Alinha as caixas em linha em telas maiores */
+        flex-wrap: wrap; /* Permite que as caixas quebrem para a próxima linha */
+        justify-content: center; /* Centraliza as caixas quando estão em linha */
     }
 
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33% - 40px); 
-        margin: 10px; 
+        width: calc(33% - 40px); /* Aproximadamente 3 caixas por linha, considerando o gap */
+        margin: 10px; /* Espaçamento externo entre as caixas */
     }
 }
 
@@ -253,6 +254,6 @@ header{
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33.33% - 40px); 
+        width: calc(33.33% - 40px); /* Ajuste fino para 3 caixas por linha */
     }
 }
