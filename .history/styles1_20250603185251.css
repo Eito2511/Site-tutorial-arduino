@@ -1,0 +1,66 @@
+.titulo{
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Basic styling for the containers, assuming you'll wrap these in a main content area */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+div {
+    margin-bottom: 30px; /* Add some space between sections */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* --- Responsive Image Styling --- */
+img {
+    max-width: 100%; /* Ensures images don't exceed their parent's width */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Removes extra space below the image */
+    margin-top: 15px; /* Add some space above the image */
+    border-radius: 4px; /* Optional: subtle rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+}
+
+/* --- Media Queries for smaller screens (optional, but good for fine-tuning) --- */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    div {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    ul {
+        margin-left: 15px;
+    }
+}
