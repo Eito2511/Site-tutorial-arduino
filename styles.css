@@ -1,4 +1,5 @@
 *{
+    height: 3000;
     padding: 0;
     margin: 0;
     background-color:rgb(255, 255, 255);
@@ -55,7 +56,7 @@ header{
 }
 
 .prototipo{
-    background-color: rgb(255, 250, 245);
+    background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -71,7 +72,7 @@ header{
 .tituloprototipo{
     text-align: center;
     margin: 20px;
-    background-color: rgb(255, 249, 243);
+    background-color: rgb(240, 240, 240);
     font-size:xx-large;
 }
 
@@ -88,49 +89,130 @@ header{
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .Heitor{
-    border: 5px, solid black;
-    height: 300px;
+    height: 375px;
+    width: 800px;
     padding: 25px;
     margin: 34px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-.Nicole{
-    border: 5px, solid black;
-    height: 300px;
+.Nicolly{
+    height: 375px;
+    width: 800px;
     padding: 25px;
     margin: 34px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.foto{
+    height: 350px;
+    width: 275px;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .Pedro{
-    border: 5px, solid black;
-    height: 300px;
+    height: 375px;
+    width: 800px;
     padding: 25px;
     margin: 34px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .Luiz{
-    border: 5px, solid black;
-    height: 300px;
+    height: 375px;
+    width: 800px;
     padding: 25px;
     margin: 34px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .Marcus{
-    border: 5px, solid black;
-    height: 300px;
+    height: 375px;
+    width: 800px;
     padding: 25px;
     margin: 34px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tituloaplicativos{
+    text-align: center;
+    padding: 50px;
+}
+
+.aplicativos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.arduinoide{
+    margin: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.tinkercad{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navindex{
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.4)
+}
+
+.btn{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 10px;
+    text-align: center;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
