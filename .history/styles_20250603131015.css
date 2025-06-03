@@ -264,12 +264,12 @@ header{
     }
 
     .tituloprototipo {
-        font-size: 1.5em; 
+        font-size: 1.5em; /* Smaller font size for the title on small screens */
     }
 }
 
 @media (min-width: 1025px) {
     .imagemprototipo {
-        max-width: 800px; 
+        max-width: 800px; /* Limits the max width of the image on very large screens */
     }
 }

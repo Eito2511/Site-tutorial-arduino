@@ -20,6 +20,21 @@ header{
     background-color: rgb(0, 0, 0);
 }
 
+.imagemprototipo{
+    height: 565.66px;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.prototipo{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
 
 .degrade1{
   height: 10px;
@@ -236,40 +251,19 @@ header{
     }
 }
 
-
-/* Imagem do circuito */
-.prototipo {
-    text-align: center; 
-    padding: 20px; 
-    margin-top: 20px;
-}
-
-.tituloprototipo {
-    font-size: 2em; 
-     margin-bottom: 20px; 
-}
-
-.imagemprototipo {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
-    border-radius: 8px; 
-    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
-}
-
 @media (max-width: 768px) {
     .prototipo {
-        padding: 15px; 
+        padding: 15px; /* Slightly less padding on smaller screens */
     }
 
     .tituloprototipo {
-        font-size: 1.5em; 
+        font-size: 1.5em; /* Smaller font size for the title on small screens */
     }
 }
 
+/* For screens larger than 1024px (e.g., larger desktops) */
 @media (min-width: 1025px) {
     .imagemprototipo {
-        max-width: 800px; 
+        max-width: 800px; /* Limits the max width of the image on very large screens */
     }
 }

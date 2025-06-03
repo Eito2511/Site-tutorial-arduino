@@ -236,40 +236,43 @@ header{
     }
 }
 
-
-/* Imagem do circuito */
 .prototipo {
-    text-align: center; 
-    padding: 20px; 
-    margin-top: 20px;
+    text-align: center; /* Centers the heading and image */
+    padding: 20px; /* Adds some padding around the section */
+    margin-top: 20px; /* Adds space above the section */
 }
 
 .tituloprototipo {
-    font-size: 2em; 
-     margin-bottom: 20px; 
+    font-size: 2em; /* Larger font size for the title */
+    color: #333; /* Darker color for the title */
+    margin-bottom: 20px; /* Space below the title */
 }
 
 .imagemprototipo {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
-    border-radius: 8px; 
-    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    max-width: 100%; /* Ensures the image is never wider than its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image if it's smaller than max-width */
+    border-radius: 8px; /* Slightly rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+/* --- Media Queries for Responsiveness --- */
+
+/* For screens smaller than 768px (e.g., mobile phones and smaller tablets) */
 @media (max-width: 768px) {
     .prototipo {
-        padding: 15px; 
+        padding: 15px; /* Slightly less padding on smaller screens */
     }
 
     .tituloprototipo {
-        font-size: 1.5em; 
+        font-size: 1.5em; /* Smaller font size for the title on small screens */
     }
 }
 
+/* For screens larger than 1024px (e.g., larger desktops) */
 @media (min-width: 1025px) {
     .imagemprototipo {
-        max-width: 800px; 
+        max-width: 800px; /* Limits the max width of the image on very large screens */
     }
 }
