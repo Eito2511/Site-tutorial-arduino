@@ -21,7 +21,7 @@ header{
 }
 
 .imagemprototipo{
-    height: 565.66px;
+    height: 350px;
     width: 800px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
@@ -196,7 +196,7 @@ header{
     padding: 60px;
 }
 
-/* Contextualização/Motivação/Objeto */
+/* Responsividade */
 
 .descricao {
     display: flex;
@@ -244,8 +244,8 @@ header{
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33% - 40px); 
-        margin: 10px; 
+        width: calc(33% - 40px); /* Aproximadamente 3 caixas por linha, considerando o gap */
+        margin: 10px; /* Espaçamento externo entre as caixas */
     }
 }
 
@@ -253,6 +253,6 @@ header{
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33.33% - 40px); 
+        width: calc(33.33% - 40px); /* Ajuste fino para 3 caixas por linha */
     }
 }

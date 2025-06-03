@@ -21,7 +21,7 @@ header{
 }
 
 .imagemprototipo{
-    height: 565.66px;
+    height: 350px;
     width: 800px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
@@ -196,7 +196,7 @@ header{
     padding: 60px;
 }
 
-/* Contextualização/Motivação/Objeto */
+/* Descrição/Motivação/Objeto */
 
 .descricao {
     display: flex;

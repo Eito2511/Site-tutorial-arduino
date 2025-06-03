@@ -21,7 +21,7 @@ header{
 }
 
 .imagemprototipo{
-    height: 565.66px;
+    height: 350px;
     width: 800px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
@@ -194,65 +194,4 @@ header{
     flex-direction: column;
     align-items: flex-start;
     padding: 60px;
-}
-
-/* Contextualização/Motivação/Objeto */
-
-.descricao {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; 
-    padding: 20px;
-    align-items: center; 
-}
-
-.Motivação,
-.Objetivo,
-.Contextualização {
-    background-color: #ffffff;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    padding: 10px;
-    width: 100%; 
-    max-width: 600px; 
-    box-sizing: border-box; 
-}
-
-.Motivação h1,
-.Objetivo h1,
-.Contextualização h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.Motivação p,
-.Objetivo p,
-.Contextualização p {
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Responsividade */
-@media (min-width: 768px) {
-    .descricao {
-        flex-direction: row; 
-        flex-wrap: wrap; 
-        justify-content: center; 
-    }
-
-    .Motivação,
-    .Objetivo,
-    .Contextualização {
-        width: calc(33% - 40px); 
-        margin: 10px; 
-    }
-}
-
-@media (min-width: 1024px) {
-    .Motivação,
-    .Objetivo,
-    .Contextualização {
-        width: calc(33.33% - 40px); 
-    }
 }

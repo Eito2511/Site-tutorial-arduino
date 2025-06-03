@@ -21,7 +21,7 @@ header{
 }
 
 .imagemprototipo{
-    height: 565.66px;
+    height: 350px;
     width: 800px;
     border-radius: 5px;
     box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
@@ -196,26 +196,25 @@ header{
     padding: 60px;
 }
 
-/* Contextualização/Motivação/Objeto */
-
 .descricao {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px; /* Espaçamento entre as caixas */
     padding: 20px;
-    align-items: center; 
+    align-items: center; /* Centraliza as caixas horizontalmente */
 }
 
+/* Responsividade */
 .Motivação,
 .Objetivo,
 .Contextualização {
-    background-color: #ffffff;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; /* Cor de fundo da caixa */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 10px;
-    width: 100%; 
-    max-width: 600px; 
-    box-sizing: border-box; 
+    width: 100%; /* Largura total em telas pequenas */
+    max-width: 600px; /* Largura máxima para telas maiores */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura */
 }
 
 .Motivação h1,
@@ -236,16 +235,16 @@ header{
 /* Responsividade */
 @media (min-width: 768px) {
     .descricao {
-        flex-direction: row; 
-        flex-wrap: wrap; 
-        justify-content: center; 
+        flex-direction: row; /* Alinha as caixas em linha em telas maiores */
+        flex-wrap: wrap; /* Permite que as caixas quebrem para a próxima linha */
+        justify-content: center; /* Centraliza as caixas quando estão em linha */
     }
 
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33% - 40px); 
-        margin: 10px; 
+        width: calc(33% - 40px); /* Aproximadamente 3 caixas por linha, considerando o gap */
+        margin: 10px; /* Espaçamento externo entre as caixas */
     }
 }
 
@@ -253,6 +252,6 @@ header{
     .Motivação,
     .Objetivo,
     .Contextualização {
-        width: calc(33.33% - 40px); 
+        width: calc(33.33% - 40px); /* Ajuste fino para 3 caixas por linha */
     }
 }
