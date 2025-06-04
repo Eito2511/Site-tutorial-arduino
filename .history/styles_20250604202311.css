@@ -1,0 +1,311 @@
+*{
+    height: 3000;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.degrade1{
+  height: 10px;
+  background: linear-gradient(#ffffff, #d2d2d2);
+}
+
+
+.degrade2{
+    height: 10px;
+    background: linear-gradient(#d2d2d2, #ffffff);
+}
+
+.a{
+    height: 600px;
+}
+
+.Perfil{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Heitor{
+    height: 375px;
+    width: 800px;
+    padding: 25px;
+    margin: 34px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Nicolly{
+    height: 375px;
+    width: 800px;
+    padding: 25px;
+    margin: 34px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.foto{
+    height: 350px;
+    width: 275px;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Pedro{
+    height: 375px;
+    width: 800px;
+    padding: 25px;
+    margin: 34px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Luiz{
+    height: 375px;
+    width: 800px;
+    padding: 25px;
+    margin: 34px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Marcus{
+    height: 375px;
+    width: 800px;
+    padding: 25px;
+    margin: 34px;
+    border-radius: 5px;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tituloaplicativos{
+    text-align: center;
+    padding: 50px;
+}
+
+.aplicativos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.arduinoide{
+    margin: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.tinkercad{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Menu*/
+.navindex {
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 10px;
+    text-align: center;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.descricaocomponentes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+/* Contextualização/Motivação/Objeto */
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+    align-items: center; 
+}
+
+.Motivação,
+.Objetivo,
+.Contextualização {
+    background-color: #ffffff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    width: 100%; 
+    max-width: 600px; 
+    box-sizing: border-box; 
+}
+
+.Motivação h1,
+.Objetivo h1,
+.Contextualização h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.Motivação p,
+.Objetivo p,
+.Contextualização p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .descricao {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    .Motivação,
+    .Objetivo,
+    .Contextualização {
+        width: calc(33% - 40px); 
+        margin: 10px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .Motivação,
+    .Objetivo,
+    .Contextualização {
+        width: calc(33.33% - 40px); 
+    }
+}
+/* video *
+
+/* Imagem do circuito */
+.prototipo {
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+.tituloprototipo {
+    font-size: 2em; 
+     margin-bottom: 20px; 
+}
+
+.imagemprototipo {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 8px; 
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .prototipo {
+        padding: 15px; 
+    }
+
+    .tituloprototipo {
+        font-size: 1.5em; 
+    }
+}
+
+@media (min-width: 1025px) {
+    .imagemprototipo {
+        max-width: 800px; 
+    }
+}
+
+/* Responsividade do Menu */
+@media (max-width: 768px) {
+    .navindex {
+        padding: 20px; 
+    }
+
+    .btn {
+        width: calc(50% - 20px); 
+        padding: 10px 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .navindex {
+        flex-direction: column; 
+        padding: 15px; 
+    }
+
+    .btn {
+        width: 90%; 
+        margin: 10px auto; 
+        padding: 20px 0; 
+    }
+}
+
+.codigo{
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.4);
+    margin: 50px;  
+    padding: 20px;
+    border-radius: 5px;
+}

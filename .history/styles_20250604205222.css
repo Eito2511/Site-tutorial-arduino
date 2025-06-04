@@ -152,7 +152,7 @@ header {
   background-color: rgb(240, 240, 240);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   flex-wrap: wrap;
-  justify-content: center;
+  
 }
 
 .btn {

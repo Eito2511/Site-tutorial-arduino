@@ -239,22 +239,26 @@ header {
 }
 /* video */
 .video-container {
-  background-color: #fff;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-iframe {
-  width: 400px;
-  height: 710px;
-  border: none;
-  border-radius: 8px;
-  max-width: 100%;
-}
-
+      background-color: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    iframe {
+      width: 400px;
+      height: 710px;
+      border: none;
+      border-radius: 8px;
+      max-width: 100%;
+    }
+    @media (max-height: 750px) {
+      body {
+        align-items: flex-start;
+        padding-top: 40px;
+      }
 /* Imagem do circuito */
 .prototipo {
   text-align: center;
