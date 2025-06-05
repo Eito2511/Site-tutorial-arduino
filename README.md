@@ -1,7 +1,7 @@
 # Lixeira Automatizada com Arduino
 
 *Este projeto apresenta uma solução inteligente para facilitar o descarte de resíduos, utilizando tecnologia para tornar o processo mais higiênico e prático. Através de um protótipo de lixeira automatizada, que abre ao detectar a aproximação do usuário, promovemos o aprendizado prático e a interdisciplinaridade entre Sistemas Digitais e Introdução à Computação.*  
-_This will also be italic_
+
 
 ## Objetivo
 *Desenvolver uma lixeira automática que:
