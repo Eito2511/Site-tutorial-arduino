@@ -239,59 +239,59 @@ header {
 }
 /* video */
 .video-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 
-/* Estilizando o link do GitHub */
-.github-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  margin-bottom: 15px;
-  transition: color 0.3s, transform 0.3s;
-}
+  /* Estilizando o link do GitHub */
+  .github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: color 0.3s, transform 0.3s;
+  }
 
-.github-link:hover {
-  color: #0366d6;
-  transform: scale(1.05);
-}
+  .github-link:hover {
+    color: #0366d6;
+    transform: scale(1.05);
+  }
 
-/* Estilizando a imagem do ícone do GitHub */
-.github-icon {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-  transition: transform 0.3s;
-}
+  /* Estilizando a imagem do ícone do GitHub */
+  .github-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
 
-.github-link:hover .github-icon {
-  transform: rotate(10deg);
-}
+  .github-link:hover .github-icon {
+    transform: rotate(10deg);
+  }
 
-/* Tornando o iframe responsivo */
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* proporção 16:9 */
-  height: 0;
-  overflow: hidden;
-  border-radius: 10px;
-}
+  /* Tornando o iframe responsivo */
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
 
 /* Imagem do circuito */
 .prototipo {
