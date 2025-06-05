@@ -41,7 +41,19 @@ header {
   align-items: center;
 }
 
-.autor {
+.Heitor {
+  height: 375px;
+  width: 800px;
+  padding: 25px;
+  margin: 34px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.Nicolly {
   height: 375px;
   width: 800px;
   padding: 25px;
